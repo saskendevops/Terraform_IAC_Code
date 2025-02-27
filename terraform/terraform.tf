@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "gitopspocsasken"
+    bucket = "cloudcore007"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
